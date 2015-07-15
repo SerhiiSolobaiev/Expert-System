@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/scrollView5"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/textprompt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="17dp" />
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Не знаю"
+                    android:id="@+id/xz"
+                    android:layout_weight="4" />
+
+                <Button
+                    android:id="@+id/no"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/newgame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newgame"
+                />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linear_layout_add"
+                android:visibility="invisible">
+
+
+                <EditText
+                    android:id="@+id/breakdown_textbox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_breakdown"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="10dp" />
+
+                <EditText
+                        android:id="@+id/question_textbox"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_question"
+                        android:layout_gravity="bottom"
+                        android:layout_margin="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner_instruction"
+                        android:layout_margin="10dp"
+                        android:layout_weight="3" />
+
+                    <Button
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:text="+"
+                        android:id="@+id/button_add_instruction"
+                        android:layout_margin="10dp"
+                        android:background = "@drawable/roundedbutton"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/abc_text_size_medium_material" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/entertext"
+                    android:layout_width="180dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/entertext"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_margin="10dp"
+                    android:background="#ffbebebe" />
+            </LinearLayout>
+                </ScrollView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

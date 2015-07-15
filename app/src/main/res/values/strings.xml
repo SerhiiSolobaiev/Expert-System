@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Diplom</string>
+
+    <string name="about">Про розробника</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="show_breakdowns">Показати усі несправності</string>
+    <string name="find_breakdown">Визначити несправність</string>
+    <string name="action_call">action_call</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="not_now">Не зараз</string>
+    <string name="entertext"> Додати несправність</string>
+    <string name="hint_breakdown"> Яка назва несправності?</string>
+    <string name="hint_question"> Яке питання є вірним для цієї несправності?</string>
+    <string name="newgame">Спочатку</string>
+    <string name="show_instruction">Інструкція</string>
+    <string name="expert">Ввійти в експертне меню</string>
+    <string name="edit_bd_title">Що редагувати?</string>
+    <string name="instr_update">Інструкцію щодо усунення несправності</string>
+    <string name="breakdown_update">Несправність</string>
+    <string name="question_update">Питання про ознаки несправностей</string>
+    <string name="select_language">Оберіть мову програми</string>
+    <string name="no_breakdown">Неможливо визначити несправність у зв’язку з нестачею інформації</string>
+    <string name="founded_breakdown"> Знайдена несправність - </string>
+    <string name="show_instr">Подивитися процедуру усунення несправності?</string>
+    <string name="about_name">Розробник: Солобаєв Сергій Геннадійович\nГрупа: ІС-12\nТелефон: 0964699065"</string>
+    <string name="select_breakdown">Оберіть несправність</string>
+    <string name="name_expert">"Експерт: Іванов Іван Іванович\nТелефон: 0964699065"</string>
+    <string name="call_expert">"Подзвонити до експерта?"</string>
+    <string name="add_break">Додавання нової несправності\n\nЯке питання є вірним для цієї несправності, але не для</string>
+
+</resources>

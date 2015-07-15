@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Диплом</string>
+
+    <string name="about">Про разработчика</string>
+    <string name="action_settings">Настройки</string>
+    <string name="show_breakdowns">Показать все неисправности</string>
+    <string name="find_breakdown">Определить неисправность</string>
+    <string name="action_call">action_call</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="entertext"> Добавить неисправность</string>
+    <string name="hint_breakdown"> Какая назва неисправности?</string>
+    <string name="hint_question"> Какой вопрос является верным для этой неисправности??</string>
+    <string name="newgame">Сначала</string>
+    <string name="show_instruction">Инструкция</string>
+    <string name="expert">Войти в экспертное меню</string>
+    <string name="edit_bd_title">Что редактировать?</string>
+    <string name="instr_update">Инструкцию по устранению неисправности</string>
+    <string name="breakdown_update">Неисправность</string>
+    <string name="question_update">Вопросы о признаках неисправностей</string>
+    <string name="select_language">Выберите язык программы</string>
+    <string name="no_breakdown">Невозможно определить неисправность в связи с недостатком информации</string>
+    <string name="founded_breakdown">Найденая неисправность - </string>
+    <string name="show_instr">Посмотреть процедуру устранения неисправности?</string>
+    <string name="about_name">Разработчик: Солобаев Сергей Геннадьевич\nГруппа: ИС-12\nТелефон: 0964699065"</string>
+    <string name="select_breakdown">Выберите неисправность</string>
+    <string name="name_expert">"Эксперт: Иванов Иван Иванович\nТелефон: 0964699065"</string>
+    <string name="call_expert">""Позвонить к эксперту?"</string>
+    <string name="add_break">Добавление новой неисправности\n\nКакой вопрос является верным для этой неисправности, но не для</string>
+
+</resources>
